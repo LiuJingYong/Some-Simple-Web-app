@@ -1,0 +1,118 @@
+/*13331172_刘景镛_hw5*/
+/*this is a css file of a simple calculator*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+/*计算器整体的定位*/
+#mainBody {
+	border: 4px solid rgb(58, 58, 58);
+    border-radius: 20px;
+	width: 600px;
+	overflow: hidden;
+    margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+    background-color: rgb(58, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*显示框整体的定位*/
+#displayBar {
+    margin: 20px 20px 20px 20px;
+
+}
+
+#displayEqualSign {
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 30px;
+    color: white;
+}
+
+#inputDisplay {
+    border: 2px solid white;
+    width: 350px;
+    height: 40px;
+    font-size: 30px;
+}
+
+#outputDisplay {
+    border: 2px solid white;
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+}
+
+/*输入面板整体的定位*/
+#pressButton {
+    margin: 10px 10px 20px 10px;
+}
+
+/*规定计算式输入按钮的外观*/
+button.inputButton {
+    margin: 5px 13px 5px 10px;
+    width: 118px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: gainsboro;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(116, 116, 116);
+}
+
+/*规定运算操作按钮的外观*/
+button.operatorButton {
+    margin: 5px 13px 5px 10px;
+    width: 118px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: gainsboro;
+    font-size: 20px;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+/*规定“删除前一位输入”按钮的外观*/
+#left-arrow {
+    margin: 5px 13px 5px 10px;
+    width: 118px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: gainsboro;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(238, 132, 38);
+}
+
+/*规定删除整个计算式的按钮的外观*/
+#ceButton {
+    margin: 5px 13px 5px 10px;
+    width: 118px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: gainsboro;
+    font-size: 20px;
+    color: white;
+    background-color: orangered;
+}
+
+/*规定运算结果按钮的外观*/
+#equalButton {
+    margin: 5px 13px 5px 10px;
+    width: 118px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: gainsboro;
+    font-size: 20px;
+    color: white;
+    background-color: lawngreen;
+}
+
